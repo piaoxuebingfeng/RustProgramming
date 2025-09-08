@@ -58,3 +58,55 @@ rustc hello.rs
 
 
 
+## rust 语言注释
+
+  Rust 支持几种不同风格的注释方式。
+
+
+
+- 普通注释
+  - // 单行注释，注释内容直到行尾
+  - /*  块注释，注释内容一直到结束分隔符。 */
+
+- 文档注释
+  - /// 为接下来的项生成帮助文档
+  - //! 为注释所属于的项 生成帮助文档
+
+  文档注释是一种特殊的注释方式，用于生成 html 文档。
+
+  如果是使用 cargo 构建的 rust 项目，可以使用 cargo 命令来生成文档。
+
+```bash
+# 生成文档并在浏览器中打开
+cargo doc --open
+
+# 生成文档
+cargo doc
+```
+
+
+
+## cargo 基本使用
+
+
+
+```bash
+# 创建一个 helloworld 的 rust 项目
+cargo new helloworld
+
+cd helloworld
+
+# 构建项目
+cargo build
+
+# 运行项目
+cargo run
+
+# 生成文档
+cargo doc
+```
+
+
+
+
+
