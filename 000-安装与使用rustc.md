@@ -4,6 +4,10 @@
 
 ## Rust 安装
 
+  rust 官方安装说明网站。
+
+  https://www.rust-lang.org/tools/install
+
 ### Linux Ubuntu
 
 ```
